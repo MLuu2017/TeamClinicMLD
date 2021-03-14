@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 496901303916555680}
   - component: {fileID: 3551794807536935429}
   - component: {fileID: 1634373211271468751}
+  - component: {fileID: -8564172101857209636}
   m_Layer: 0
-  m_Name: Medium_Rust_NoWindow
+  m_Name: Wall_Medium_Rust_NoWindow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -79,3 +80,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &-8564172101857209636
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 985876787360675610}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 100, y: 100.00002, z: 100.00002}
+  m_Center: {x: 0, y: 0, z: 0}
